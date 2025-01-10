@@ -1,5 +1,5 @@
-# DSA-210 Term Project: Personal Social Media Engagement/Consumption Analysis
-This project aims to analyze my social media usage and habits using the data from various platforms (Particularly spotify, as I use it the most). I aim to understand my content preferances, usage patterns and test how I have been profiled in these platforms(platform inferences).
+# DSA-210 Term Project: Personal Spotify Engagement/Consumption Analysis
+This project aims to analyze my Spotify usage and habits using the data retrieved from the platform (Spotify, as I use it the most). I aim to understand my content preferances, usage patterns and test how I have been profiled in these platforms(platform inferences).
 
 ## Datasets
 The project uses the following datasets, collected through platform requests and APIs(still collecting): 
@@ -23,32 +23,6 @@ Example:
     "reason_end": "trackdone"
 }
 ```
-
-### 2. Instagram Data: 
-- **Impressions History**: Records of posts viewed, authors, and timestamps.
-- **Saved Media**: Information about saved posts and their categories.
-- **Topics of Interest**: Topics inferred based on engagement patterns.
-
-And other useful information.
-
-Example:
-
-```json
-{
-    "topics_your_topics": [
-        {"Name": {"value": "Crafts"}},
-        {"Name": {"value": "Basketball"}}
-    ]
-}
-```
-
-### 3. Netflix Data: 
--**Watch History**: Titles watched, genres, and timestamps.
-
-### 4. Reddit Data: 
--**User Engagement**: Posts, comments, and subreddit activity.
-
-Some other useful personal data such as screen time, activity, etc. can be used in the future to relate to social media consumption. Also, data from other platforms such as "Twitter", "Twitch", "Youtube" could be used in the future to give variety and extend the scope of the initial analysis.  
 
 ## Project Plan
 **Step 1:** Data Collection and Preprocessing: 
